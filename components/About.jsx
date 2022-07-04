@@ -1,13 +1,12 @@
 import React from 'react';
 
-
 const About = () => {
   return (
     <div
       id="about"
       className="w-full max-w-[1000px] mx-auto px-8 flex flex-col justify-center text-gray-300"
     >
-      <div className='mb-8'>
+      <div className="mb-8">
         <h2 className="text-4xl mb-4 font-bold inline border-b-4 border-pink-500 sm:text-7xl">
           About Us
         </h2>
@@ -25,7 +24,7 @@ const About = () => {
         <div>
           <div className="my-8 mx-auto">
             <div className="max-w-[800px]">
-              <img src='msportgirls.webp' alt="girls" />
+              <img src="msportgirls.webp" alt="girls" />
             </div>
             <h3 className="text-3xl font-semibold my-8">Our Girls Teams</h3>
             <p>
@@ -36,13 +35,13 @@ const About = () => {
           </div>
           <div className="my-8 ">
             <div className="max-w-[800px]">
-              <img src='msportboys.jpg' alt="boys" />
+              <img src="msportboys.jpg" alt="boys" />
             </div>
             <h3 className="text-3xl font-semibold my-8">Our Boys Teams</h3>
             <p>
               Our boyss teams are in three age ranges, the U12, U15 and U17.
               Each team has weekly trainings that are over seen by our trusted
-              coaching crew.
+              coaching crew. to be continued ..
             </p>
           </div>
         </div>
