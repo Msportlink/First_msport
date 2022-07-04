@@ -31,7 +31,9 @@ const Navbar = () => {
           <li>
             <Link href="#contact">Contact</Link>
           </li>
-          <li><Link href="./news">News</Link></li>
+          <li>
+            <Link href="./news">News</Link>
+          </li>
         </ul>
       </div>
       {/* Hamburger */}
@@ -75,31 +77,37 @@ const Navbar = () => {
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0 ">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-400 bg-red-200">
-            <a
-              href="/"
+            InstaGram
+            <Link
+              href="https://www.instagram.com/msportlink/"
+              target="_blank"
+              rel="noreferrer"
               className="flex justify-between items-center w-full text-black"
             >
-              InstaGram
               <AiOutlineInstagram size={30} />
-            </a>
+            </Link>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-400 bg-blue-200">
-            <a
-              href="/"
+            Facebook
+            <Link
+              href="https://www.facebook.com/Msportlink"
+              target="_blank"
+              rel="noreferrer"
               className="flex justify-between items-center w-full text-black"
             >
-              Facebook
               <BsFacebook size={30} />
-            </a>
+            </Link>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-400 bg-yellow-200">
-            <a
-              href="/"
+            Twitter
+            <Link
+              href="https://twitter.com/msportlink"
+              target="_blank"
+              rel="noreferrer"
               className="flex justify-between items-center w-full text-black"
             >
-              Twitter
               <FaTwitterSquare size={30} />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
